@@ -1,12 +1,12 @@
 <h1 align="center">🔐 Linux Login Attempt Tracker</h1> <p align="center"><strong>Shell Script • Linux Security • Log Analysis • Threat Detection • IAM Basics • Auth Monitoring</strong></p> <p align="center"> <img src="https://img.shields.io/badge/Language-Bash-blue?logo=gnubash" /> <img src="https://img.shields.io/badge/OS-Ubuntu%20%2F%20Debian-orange?logo=ubuntu" /> <img src="https://img.shields.io/badge/Security-Log%20Analysis-red?logo=linux" /> <img src="https://img.shields.io/badge/Status-Active-brightgreen" /> <img src="https://img.shields.io/badge/Domain-CyberSecurity-purple" /> <img src="https://img.shields.io/badge/Analyzes-/var/log/auth.log-yellow" /> <img src="https://img.shields.io/badge/Threat%20Detection-Basic-success" /> <img src="https://img.shields.io/badge/License-MIT-lightgrey" /> </p>
----
+
 📌 Overview
 
 A lightweight yet powerful Linux security monitoring tool that analyzes system authentication logs (/var/log/auth.log) to detect login patterns, failed attempts, suspicious behavior, and possible brute-force login attacks.
 
 This project is highly relevant for:
 --- 
-##🔐 Cybersecurity
+🔐 Cybersecurity
 
 🛡 IAM & Authentication Systems
 
