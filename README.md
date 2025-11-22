@@ -1,6 +1,6 @@
 <h1 align="center">🔐 Linux Login Attempt Tracker</h1> <p align="center"><strong>Shell Script • Linux Security • Log Analysis • Threat Detection • IAM Basics • Auth Monitoring</strong></p> <p align="center"> <img src="https://img.shields.io/badge/Language-Bash-blue?logo=gnubash" /> <img src="https://img.shields.io/badge/OS-Ubuntu%20%2F%20Debian-orange?logo=ubuntu" /> <img src="https://img.shields.io/badge/Security-Log%20Analysis-red?logo=linux" /> <img src="https://img.shields.io/badge/Status-Active-brightgreen" /> <img src="https://img.shields.io/badge/Domain-CyberSecurity-purple" /> <img src="https://img.shields.io/badge/Analyzes-/var/log/auth.log-yellow" /> <img src="https://img.shields.io/badge/Threat%20Detection-Basic-success" /> <img src="https://img.shields.io/badge/License-MIT-lightgrey" /> </p>
 ---
-##📌 Overview
+📌 Overview
 
 A lightweight yet powerful Linux security monitoring tool that analyzes system authentication logs (/var/log/auth.log) to detect login patterns, failed attempts, suspicious behavior, and possible brute-force login attacks.
 
@@ -15,7 +15,7 @@ This project is highly relevant for:
 🐧 Linux Administration roles
 
 Built using pure Bash, this tool provides fast, transparent insights into login security events.
-
+--- 
 ✨ Key Features
 🔥 Real-Time Authentication Insights
 
@@ -28,7 +28,7 @@ Successful SSH logins
 Last 5 login events
 
 --- 
-##🕵️ Suspicious Activity Detection
+🕵️ Suspicious Activity Detection
 
 Lists unique IPs hitting the server
 
@@ -39,7 +39,7 @@ Finds the user with MOST failed attempts
 Optional brute-force detection (5+ failed logins)
 
 --- 
-##📊 Clean Log Summaries
+📊 Clean Log Summaries
 
 Data extracted using:
 
@@ -54,7 +54,7 @@ uniq
 Regex pattern matching
 
 --- 
-##⚙️ Architecture & Internals
+⚙️ Architecture & Internals
 📝 Log Source
 
 The tool parses:
@@ -83,7 +83,7 @@ Field extraction → awk
 Last activity → tail -5
 
 --- 
-##🛠️ Installation & Usage
+🛠️ Installation & Usage
 1️⃣ Clone the Repository
 git clone https://github.com/arushiranaaa/login-attempt-tracker.git
 cd login-attempt-tracker
@@ -115,7 +115,7 @@ Jan 22 10:15:24 ubuntu sshd[1293]: Failed password...
 Jan 22 10:16:05 ubuntu sshd[1301]: Accepted password...
 
 --- 
-##🚀 Future Enhancements
+🚀 Future Enhancements
 
 Color-coded output (success = green, fail = red)
 
